@@ -8,7 +8,7 @@ const int MAX_LEN = 64;
 
 //двумерный массив указателей, элементы являются указателями на строки
 
-int main() {
+int main(void) {
     FILE *file = fopen ("txt.txt", "r");
     if (file == NULL) {
         printf ("Can not open file");
