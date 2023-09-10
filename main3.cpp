@@ -3,13 +3,13 @@
 #include <string.h>
 #include <sys/stat.h>
 
-const int MAX_LINE = 5;
+const int MAX_LINE = 18;
 const int MAX_LEN = 64;
 
 //двумерный массив указателей, элементы являются указателями на строки
 
 int main(void) {
-    FILE *file = fopen ("txt.txt", "r");
+    FILE *file = fopen ("stich.txt", "r");
     if (file == NULL) {
         printf ("Can not open file");
         return 1;
